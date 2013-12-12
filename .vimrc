@@ -1,4 +1,17 @@
 
+set tags=tags;/
+
+syntax on
+
+set autoindent
+
+set cindent
+
+set nu
+
+set hlsearch
+set incsearch
+
 " lookupfile.vim plungin config
 "-----------------------------------------------
 let g:LookupFile_MinPatLength = 2               "最少输入2个字符才开始查找
@@ -10,4 +23,5 @@ let g:LookupFile_AllowNewFiles = 0              "不允许创建不存在的文�
 if filereadable("./filenametags")                "设置tag文件的名字
 let g:LookupFile_TagExpr ='"./filenametags"'
 endif
+
 

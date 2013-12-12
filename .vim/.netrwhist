@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/shan/practice/git/git_repo/src'
-let g:netrw_dirhist_2='/home/shan/practice/ushare-1.1a/src'
-let g:netrw_dirhist_3='/home/shan/.vimperator'
