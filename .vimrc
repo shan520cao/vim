@@ -24,4 +24,23 @@ if filereadable("./filenametags")                "设置tag文件的名字
 let g:LookupFile_TagExpr ='"./filenametags"'
 endif
 
+" minibufexplorer plugin config
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1
+let g:miniBufExplMoreThanOne=0
 
+" NERDTree plugin config
+let g:NERDTree_title="[NERDTree]"
+let g:winManagerWindowLayout="NERDTree|TagList"
+
+function! NERDTree_Start()
+	exec 'NERDTree'
+endfunction
+
+function! NERDTree_IsValid()
+        return 1
+endfunction
+
+nmap wm :WMToggle<CR>
