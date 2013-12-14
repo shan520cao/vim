@@ -44,3 +44,8 @@ function! NERDTree_IsValid()
 endfunction
 
 nmap wm :WMToggle<CR>
+
+
+"config grep.vim
+let Grep_Default_Options = '-r' 
+nnoremap <silent> <F3> :Grep<CR>
