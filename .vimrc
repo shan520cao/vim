@@ -7,7 +7,7 @@ set mouse=a
 set autoindent
 
 set cindent
-
+set suffixes=.o,.bak,~,.a,.so,.swp
 set nu
 
 set hlsearch
