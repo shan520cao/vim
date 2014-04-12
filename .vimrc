@@ -3,7 +3,7 @@ set tags=tags;/
 
 syntax on
 
-set mouse=a
+"set mouse=a
 set autoindent
 
 set cindent
