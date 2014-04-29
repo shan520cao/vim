@@ -45,6 +45,8 @@ function! NERDTree_IsValid()
 endfunction
 
 nmap wm :WMToggle<CR>
+nmap wt :Tlist<CR>
+nmap wf :NERDTree<CR>
 
 
 "config grep.vim
@@ -55,7 +57,7 @@ if has("cscope")
 "	set csprg=/usr/bin/cscope
 	set cscopequickfix=s-,c-,d-,i-,t-,e-
 	set csto=1
-	set cst
+"	set cst
 	set nocsverb
 	set cspc=3
 	"add any database in current dir
