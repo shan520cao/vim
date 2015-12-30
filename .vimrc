@@ -13,6 +13,13 @@ set nu
 set hlsearch
 set incsearch
 
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
+
+set tabstop=4
+set shiftwidth=4
+
 " lookupfile.vim plungin config
 "-----------------------------------------------
 let g:LookupFile_MinPatLength = 2               "最少输入2个字符才开始查找
