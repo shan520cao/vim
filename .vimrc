@@ -62,7 +62,7 @@ nnoremap <silent> <F3> :Grep<CR>
 
 if has("cscope")
 ""	set csprg=/usr/bin/cscope
-	set cscopequickfix=s-,c-,d-,i-,t-,e-
+"	set cscopequickfix=s-,c-,d-,i-,t-,e-
 	set csto=1
 	let g:autocscope_menus=0
 "	set cst
